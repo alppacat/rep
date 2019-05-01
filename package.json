@@ -1,0 +1,19 @@
+{
+  "name": "green_legacy",
+  "version": "1.0.0",
+  "description": "green legacy homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "javaScript",
+    "html",
+    "css"
+  ],
+  "author": "Tzu Pratts",
+  "license": "MIT",
+  "dependencies": {
+    "@glidejs/glide": "^3.3.0"
+  }
+}
