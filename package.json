@@ -13,5 +13,7 @@
   ],
   "author": "Tzu Pratts",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "@glidejs/glide": "^3.3.0"
+  }
 }
