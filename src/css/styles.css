@@ -40,6 +40,16 @@ body{
     right: 3px;
 }
 
+.glide__slide p {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    color: white;
+}
+
 /* Nosotros */
 #nostros_section{
     display: flex;
@@ -152,5 +162,30 @@ text-align: center;
     }
     .glide__arrows button{
         font-size: 4em;
+    }
+    .glide__slide p{
+        font-size: .9em;
+        top: 80%;
+    }
+    #nostros_section section{
+        width: 90%;
+    }
+    #nostros_section section span{
+        font-size: 1em;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 321px){
+    .glide__slide p{
+        font-size: .9em;
+        top: 80%;
+        left: 1%;
+    }
+    #nostros_section section{
+        width: 90%;
+    }
+    #nostros_section section span{
+        font-size: .9em;
+        text-align: center;
     }
 }
