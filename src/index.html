@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Green Legacy</title>
 </head>
@@ -60,42 +60,39 @@
      <!-- Nosotros section -->
 
      <div id="nostros_section">
-         <section>
+         <section data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="900">
              <h2>NOSOTROS</h2>
              <p>Green Legacy es una fundación (México-Holanda) que tienen como objetivo principal proteger el ambiente y luchar contra la deforestación promoviendo <strong>la reforestación responsable.</strong></p>
              <span>Nuestro Legado es un tesoro para la humanidad.</span>
          </section>
          <div class="columns">
              <div class="column">
-                 <div>
-                     <figure>
-                         <img>
+                     <figure class="img-container">
+                         <img src="./assets/icons-nosotros/vision.png">
                      </figure>
                      <span>NUESTRA VISIÓN</span>
                      <p>Un mundo donde las comunidades, iniciativa privada y gobiernos gestionen de forma sostenible sus bosques y recursos naturales en beneficio de nuestro clima, nuestro medio ambiente y la humanidad.</p>
-                 </div>
-
              </div>
 
              <div class="column">
-                    <figure>
-                            <img>
+                    <figure class="img-container">
+                            <img src="./assets/icons-nosotros/mision.png">
                         </figure>
                  <span>NUESTRA MISIÓN</span>
                  <p>Implementar tecnologías ecológicas que garanticen el ahorro de agua y una supervivencia de más del 90% para cada zona reforestada.</p>
              </div>
 
              <div class="column">
-                    <figure>
-                            <img>
+                    <figure class="img-container">
+                            <img src="./assets/icons-nosotros/valores.png">
                         </figure>
                 <span>NUESTROS VALORES</span>
                 <p>Integridad, transparencia, colaboración, pasión y coraje.</p>
              </div>
 
              <div class="column">
-                    <figure>
-                            <img>
+                    <figure class="img-container">
+                            <img src="./assets/icons-nosotros/meta.png">
                         </figure>
                 <span>NUESTRA META</span>
                 <p>Transformar con éxito el paisaje forestal de México, restaurando bosques, comunidades, parques, carreteras… cuidando la flora y fauna nativa de cada ecosistema.</p>
@@ -127,6 +124,10 @@
     <script src="https://unpkg.com/@glidejs/glide"></script>
      <script>
         new Glide('.glide').mount()
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <script src="./js/index.js"></script>
 </body>

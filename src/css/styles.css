@@ -46,6 +46,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 5em 3em 3em 3em;
+    font-family: 'Lato', sans-serif;
 }
 #nostros_section section{
     display: flex;
@@ -90,11 +91,10 @@ text-align: center;
 }
 
 .column img{
-    width: 100px;
-    height: 100px;
-    background-color: #007A33;
-    border-radius: 5em;
     margin-bottom: 1em;
+}
+.img-container{
+    height: 5.6em;
 }
 
 .columns{
@@ -109,6 +109,7 @@ text-align: center;
     color: #FFFFFF;
     font-size: 1em;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
