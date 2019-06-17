@@ -126,6 +126,22 @@ text-align: center;
     text-align: center;
 }
 
+/* Map */
+
+#map{
+    width: 100vw;
+    height: 50vh;
+}
+
+#map-container{
+    display: flex;
+    margin-top: 2em;
+    justify-content: center;
+}
+#map iframe{
+    width: 800px;
+    height: 600px;
+}
 /* breakpoints */
 
 @media screen and (max-width: 1089px){
