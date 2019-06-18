@@ -1,6 +1,7 @@
 body{
     margin: 0;
     color: #535353 !important;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-end{
@@ -75,7 +76,7 @@ body{
     font-weight: bold;
     letter-spacing: 2px;
 }
-#nostros_section section span{
+#nostros_section section span, #map span{
     color: #97D700;
     font-weight: bold;
     font-size: 1.2em;
@@ -129,8 +130,10 @@ text-align: center;
 /* Map */
 
 #map{
+    display:flex;
+    flex-direction: column;
     width: 100vw;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 #map-container{
@@ -141,6 +144,50 @@ text-align: center;
 #map iframe{
     width: 800px;
     height: 600px;
+}
+#map span{
+    margin-top: 2em;
+    align-self: center;
+}
+
+#tecnologia{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+#tecnologia section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-top: 10em;
+    background-color: #97D700;
+
+}
+#tecnologia h1{
+    color:#007A33;
+}
+
+#tecnologia h1, #tecnologia p{
+    padding: 1em;
+}
+
+#tecnologia p{
+    color: #FFFFFF;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C8345 !important;
+    height: 4em !important;
+    color: white;
+    padding: 0 !important;
+    margin-top: 2em;
 }
 /* breakpoints */
 
