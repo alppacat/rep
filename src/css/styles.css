@@ -111,7 +111,9 @@ text-align: center;
 .columns{
     margin-top: 3em !important;
 }
-
+.hero{
+    margin-top:3em;
+}
 .hero-body {
     background: linear-gradient(90deg, #A0C657 23.19%, #328455 100%);
     padding: 1em 1.5em 1.5em 1.5em !important;
@@ -119,12 +121,14 @@ text-align: center;
 .hero-body h2{
     color: #FFFFFF;
     font-size: 1em;
-    text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
 .container {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 /* Map */
